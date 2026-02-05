@@ -1,5 +1,6 @@
-# Ignore all shell scripts in root directory
-*.sh
+# Ignore all shell scripts in root directory only
+/*.sh
 
-# But keep the templates folder
+# Keep templates folder and its scripts
 !templates/
+!templates/*.sh
